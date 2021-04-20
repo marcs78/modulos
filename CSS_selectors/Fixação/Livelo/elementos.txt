@@ -1,0 +1,46 @@
+#id
+.class
+[id^="inicio"]
+[id*="qualquer posição"]
+[id~="final"]
+
+Botão do carrinho - #a-linkCart > span.icon-shopping-cart.cart-size
+#id = a-linkCart
+.class = .icon-shopping-cart.cart-size
+[id*="a-link"]
+[id^="a-l"]
+[id~="a-linkCart"]
+
+//*[contains(concat( " ", @class, " " ), concat( " ", "cart-size", " " ))]
+
+Botão de login - #div-controlLogin > div > span
+
+#id = div-controlLogin
+.class = icon-user doll
+[id^="div-control"]
+[id*="controlL"]
+[id~="div-controlLogin"]
+
+//*[contains(concat( " ", @class, " " ), concat( " ", "doll", " " ))]
+
+Botão de login - #span-logInIcon
+
+#id = span-logInIcon
+.class = icon-log-in
+[id^="span-logI"]
+[id*="InI"]
+[id~="span-logInIcon"]
+
+//*[(@id = "span-logInIcon")]
+
+Botão de cadastro - #span-createAccountText
+
+#id = span-createAccountText
+.class = body-text body text--small headtext headtext--bold
+
+[id^="span-cr"]
+[id*="create"]
+[id~="span-createAccountText"]
+
+//*[(@id = "span-createAccountText")]
+

@@ -1,0 +1,34 @@
+#id
+.class
+[id^="inicio"]
+[id*="qualquer posição"]
+[id~="final"]
+
+Array de botões de categorias - body > div.navbar_fixed_top > div.main_menu > div > div > div > ul
+
+.class = .main_menu_ul
+
+//*[contains(concat( " ", @class, " " ), concat( " ", "main_menu_ul", " " ))]
+
+Array de produtos (box do produto) - body > div.content > div > div > div > div.col.s80.conteudo_princ_content > div:nth-child(4) > div > div > div > div > div > div > div > div:nth-child(3)
+
+.class = product_grid
+
+//*[contains(concat( " ", @class, " " ), concat( " ", "slick-active", " " ))]
+
+
+Ícone de lupa da busca - body > div.navbar_fixed_top > div.lsc > div > div > div.col.s50 > form > div.col.s9 > div > button
+
+.class = .icon-lupa
+
+//*[contains(concat( " ", @class, " " ), concat( " ", "icon-lupa", " " ))]
+
+Botão 'ir para o carrinho' - #quantidadeAjax > div > a > div > span.icon-cx_vinho
+
+#id = quantidadeAjax
+.class = .icon-cx_vinho
+[id^="quanti"]
+[id*="Aj"]
+[id~="quantidadeAjax"]
+
+//*[contains(concat( " ", @class, " " ), concat( " ", "icon-cx_vinho", " " ))]

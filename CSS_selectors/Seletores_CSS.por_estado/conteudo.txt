@@ -1,0 +1,11 @@
+Seletores CSS por estado
+Estes, por sua vez, funcionam com base no estado atual do controle (vazio, habilitado, desabilitado etc.). A seguir, cada um é explicado, facilitando o entendimento.
+
+E:empty: seleciona o elemento E que esteja vazio, sem nenhum elemento filho.
+:target: seleciona o objeto alvo de um link interno (aqueles que são precedidos por # e que direcionam o usuário para um elemento na página).
+E:enabled: seleciona o elemento E que esteja habilitado para o usuário
+E:disabled: semelhante ao anterior, mas para elementos desabilitados.
+E:checked: seleciona elementos que estejam marcados (radios e checkboxes).
+::selection: formata o conteúdo selecionado pelo usuário.
+:not(P): seleciona os elementos que não atendem ao seletor simples P.
+E~F: seleciona todo elemento F que seja precedido por um elemento E.

@@ -1,0 +1,25 @@
+#id
+.class
+[id^="inicio"]
+[id*="qualquer posição"]
+[id~="final"]
+
+
+Botão de fechar da modal de promoção
+
+
+Input de busca - #header > div > div.col-lg-5.col-md-4.col-sm-4.hidden-xs.searchbox > div.js-search-container.hidden-xs > form > input
+
+#id = header
+.class = .js-search-input
+[id^="h"]
+[id*="ader"]
+[id~="header"]
+
+//*[contains(concat( " ", @class, " " ), concat( " ", "js-search-input", " " ))]
+
+Botão 'Quem Somos' - body > div.nav-top.hidden-xs.hidden-sm > div > div.col-xs-9.col-sm-9.col-md-9.col-lg-9.m-none.p-none > ul > li:nth-child(2) > a
+
+.class = selectorgadget_selected
+
+

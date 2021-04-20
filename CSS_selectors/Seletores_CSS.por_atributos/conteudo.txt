@@ -1,0 +1,9 @@
+Estes seletores permitem aplicar uma determinada formatação a certos elementos com base no valor de um atributo. Por exemplo, pode-se selecionar todos os elementos <div> que contenham a palavra barra no seu id (para barras superiores, inferiores, e laterais, por exemplo).
+
+Podemos selecionar os elementos cujo valor do atributo seja EXATAMENTE, COMECE COM, TERMINE COM ou CONTENHA o valor buscado. Vejamos a seguir a sintaxe:
+
+E[atributo="valor"]: elementos do tipo E cujo atributo seja igual a valor.
+E[atributo^="valor"]: elementos do tipo E cujo valor do atributo comece com a palavra valor.
+E[atributo$=”"valor"]: elementos do tipo E cujo valor do atributo termine com a palavra valor.
+E[atributo*="valor"]: elementos do tipo E cujo valor do atributo contenha a palavra valor.
+Vejamos, na prática, o funcionamento destes seletores. Para isso, devemos alterar o conteúdo do arquivo seletores.css conforme a Listagem 2.

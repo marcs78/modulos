@@ -1,0 +1,8 @@
+Missão 3
+
+Pesquisar o que é o Proc em Ruby e descobrir as diferenças entre ele e o Lambda
+
+Proc
+A Proc como dito antes, tem algumas particularidades, a mais notável é o fato dos argumentos não interferirem na execução da mesma, por exemplo, se vamos imprimir uma interpolação de Strings em que uma parte depende de algum parâmetro, vamos ver o que acontece:
+
+Instanciando um novo objeto da classe Proc, informando que um parâmetro name será recebido para completar a frase e a executando através do método .call também presente nas Lambdas, pode-se perceber que a ausência do parâmetro não impediu a Proc de continuar sua execução e nem jogou alguma Exception.
